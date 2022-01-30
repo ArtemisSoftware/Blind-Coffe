@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
 
         showCount()
 
+
+
         coffeeLimitValue.addTextChangedListener(object: TextWatcher {
             override fun afterTextChanged(p0: Editable?) { }
 
@@ -28,6 +30,8 @@ class MainActivity : AppCompatActivity() {
         addCoffee.setOnClickListener {
             coffeeRepo.increment()
             showCount()
+
+            amountConsumed.announceForAccessibility(getString(R.string.count_updated, consumedString()))
         }
     }
 

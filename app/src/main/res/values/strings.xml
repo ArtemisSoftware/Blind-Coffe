@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">BlindCoffee</string>
 
-    <string name="coffee_limit_label">Coffee Limit</string>
+    <string name="coffee_limit_label">Limite de cafés</string>
     <string name="default_coffee_limit">5</string>
-    <string name="coffee_limit_input_hint">Limit</string>
-    <string name="amount_consumed">Amount Consumed</string>
-    <string name="consumed_format">%1$d of %2$s</string>
+    <string name="coffee_limit_input_hint">Limite</string>
+    <string name="amount_consumed">Quantidade consumida</string>
+    <string name="consumed_format">%1$d de %2$s</string>
+    <string name="add_coffee">Adicionar café</string>
+    <string name="count_updated">Quantidade consumida atualizada %s</string>
 </resources>
