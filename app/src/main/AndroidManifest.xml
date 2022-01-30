@@ -10,10 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BlindCoffee">
         <activity
-            android:name=".SplashActivity"
+            android:name=".MainActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
